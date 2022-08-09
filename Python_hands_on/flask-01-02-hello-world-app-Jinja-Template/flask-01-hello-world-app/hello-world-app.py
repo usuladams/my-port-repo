@@ -18,9 +18,11 @@ def third():
 def forth(id):
     return f'Id number of this page is {id}'
 
-if __name__ == '__main__':
-    app.run(debug=True, port=2000)
+#if __name__ == '__main__':
+#   app.run(debug=True, port=2000)
 
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=80)
 
 
 
